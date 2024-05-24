@@ -25,7 +25,7 @@ class FlowControl {
 
   public:
     FlowControl(FlowSetting sett)
-      : sett(sett), pwmValue(sett.defPWM), previousMillis(0), pulseCount(0), integral(0), previousError(0), pwmAdd(sett.pwmAdd) {} // Inisialisasi pwmAdd dengan nilai default
+      : sett(sett), pwmValue(sett.defPWM), previousMillis(0), pulseCount(0), integral(0), previousError(0), pwmAdd(sett.pwmAdd) {}
 
     void IRAM_ATTR pulseCounter() {
       pulseCount++;
