@@ -68,7 +68,7 @@ class FlowControl {
         Serial.print(" L/min");
         Serial.print(" | PWM Value: ");
         Serial.print(pwmValue);
-        Serial.print(" | pulseCount: ");
+        Serial.print(" | Pulse Count: ");
         Serial.print(pulseCount);
         Serial.print(" | ");
         Serial.println(pwmValue);
