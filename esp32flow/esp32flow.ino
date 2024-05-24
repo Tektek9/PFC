@@ -99,7 +99,6 @@ FlowSetting sett = {
   .Kd = 1.0
 };
 
-// Buat instance FlowControl
 FlowControl flowControl(sett);
 
 void setup() {
